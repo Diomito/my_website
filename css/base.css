@@ -1,33 +1,75 @@
 :root{
-    --branco: #ffffff;
     --azul-claro: #DFE3E5;
-    --vermelho-forte: #B72E2E;
-    --cinza-escuro: #4F4C4C;
+    --azul-ciano: #56CCF2;
+    --branco: #f6f6f6;
+    --bg-chamada-mobile: #00161C;
+    --hover: #333;
+    --cabecalho: #062925;
     --cinza-claro: #e7e7e7;
     --cinza-medio: #D9D9D9;
-        
+    --cinza-escuro: #4F4C4C;
+    --marrom-medio: #3C2A21;
     --fonte-link: #0084FF;
-    --fonte-cinza: #666;
-    --borda-cabecalho-mobile: #103D4A;
-    --bg-rodape: #333;
-    --bg-chamada-mobile: #00161C;
-
-    --planos-cartao-start: #56CCF2;
-    --planos-cartao-ultra: #B04CD9;
-    --planos-cartao-mega: #E33B3B;
-
+    --verde-musgo: #044A42;
+    --verde-piscina: #3A9188;
+    --vermelho-claro: #E33B3B;
+    --vermelho-forte: #B72E2E;
+    --roxo-claro: #B04CD9;
+    
+    /* font's */
     --montserrat: 'Montserrat', sans-serif;
+    --krona: 'Krona One', sans-serif;
 }
 
 body{
-    background-color: var(--branco);
+    background-image: linear-gradient(to bottom, var(--cabecalho), var(--verde-musgo), var(--verde-piscina));
+    background-attachment: fixed;
+    font-family: var(--montserrat);
 }
 
+.links{
+    text-decoration: none;
+    color: var(--azul-ciano);
+}
+
+
+.botao{
+    align-items: center;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 8px;
+    color: var(--cinza-medio);
+    display: flex;
+    font-weight: 400;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    text-decoration: none;
+    font-family: var(--krona);
+}
+
+.botao:hover{
+    background-color: var(--hover);
+    scale: 1.1;
+}
+
+.links:hover{
+    color: var(--roxo-claro);
+    scale: 1.2;
+}
 
 
 @media screen and (min-width: 1024px) {
-    .container {
-        padding-left: calc((100% - 940px)/2);
-        padding-right: calc((100% - 940px)/2);
+
+    .cabecalho{
+        justify-content: center;
+        align-items: center;
     }
+    .cabecalho__nav{
+        display: flex;
+        flex-direction: row;
+    }    
 }
+

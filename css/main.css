@@ -1,0 +1,37 @@
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo__foto{
+    width: 50%;
+    border-radius: 5%;
+}
+
+.conteudo__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    color: var(--cinza-claro);
+}
+
+.conteudo__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.formacoes{
+    display: flex;
+    padding: 5rem 8rem 3rem 5rem;
+    color: var(--cinza-claro);
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.formacoes__title{
+    font-size: 2rem;
+    font-weight: bold;
+
+}

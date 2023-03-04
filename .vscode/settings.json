@@ -1,0 +1,19 @@
+{
+	"editor.detectIndentation": false,
+	"explorer.confirmDragAndDrop": false,
+	"github-enterprise.uri": "https://github.com/Diomito",
+	"github.gitProtocol": "ssh",
+	"explorer.confirmDelete": false,
+	"editor.wordWrap": "on",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "firefox",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.ignoreFiles": [
+
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "firefox",
+}

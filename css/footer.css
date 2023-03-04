@@ -1,0 +1,45 @@
+.footer{
+    gap: 10%;
+    padding: 5%;
+    background-image: linear-gradient(to top, var(--verde-musgo), var(--cabecalho));
+    padding: 2rem;
+    
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.footer__link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--cinza-medio);
+}
+
+
+.nota{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    color: var(--verde-piscina);
+    font-size: 0.8em;
+}
+
+.nota__frase{
+    display:flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.fotos{
+    width: 1.75rem;
+}
+
+.fotos__copy{
+    width: 1rem;    
+}

@@ -4,71 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/cabecalho.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/footer.css">
 
-    <title>Minha página</title>
+    <title>Diovane Mateus</title>
 
 </head>
 <body>
-    <header class="cabecalho"> 
-        <div>
-            <h1>Engenheiro Diovane Mateus</h1>
-            <span><img class="foto-perfil" src="/img/eu.jpg" alt="Foto do Diovane"></span>
-            <nav>
-                <a href="#">Sou formado em?</a>
-                <a href="#">Portifolio</a>
-                <a href="#">Contato</a>
-            </nav>
-        </div>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <a class="cabecalho__link botao" href="">Minhas formações</a>
+            <a class="cabecalho__link botao" href="">Sobre mim</a>
+        </nav>
     </header>
-    <main>
-        <section class="hard-skills">
-            <h2>Hard Skills</h2>
-            <p>Minha primeira formação é em <strong>Engenharia Civil</strong> pela Universidade São Francisco (USF). Em 2018 durante a minha graduação participei do programa de mobilidade academica onde a Universidade seleciona alguns alunos, estudei um semestre da graduação na Universidad Marista de Mérida no México.</p>
-            <img src="#" alt="Imagem de um diploma">
-            <p>Minha segunda formação é em <strong>Engenharia de Transportes (Infrastructural Engineering)</strong> pela Széchenyi István University, University of Gyor na Hungria. Me especializei na area de Transportes porque desde da graduação essa area me despertou curiosidades, quando eu me formei no Brasil e comecei a procurar por uma pós-graduação fora do Brasil, foi onde eu encontrei e conquistei um <strong>Bolsa de estudos</strong> chamada <strong>Stipendium Hungaricum</strong> que dava bolsas de estudos e com auxilio alimentação e moradia para estudar na Hungria.</p>
-            <img src="#" alt="Imagem de um diploma">
-        </section>
-        <section class="soft-skills">
-            <h3>Soft Skills</h3>
-                <div>
-                    <li>Comunicação</li>
-                    <li>Liderança</li>
-                    <li>Gestão de tempo</li>
-                </div>
-        </section>
-        <section class="extracurriculares">
-            <h4>Extracurriculares</h4>
-                <div>
-                    <li>AutoCad</li>
-                    <li>Revit</li>
-                    <li>Front/Back-End</li>
-                </div>
-        </section>
-        <section class="idiomas">
-            <h5>Idiomas</h5>
-                <div>
-                    <li>Inglês Intermediário</li>
-                    <li>Espanho Intermediário</li>
-                    <li>Alemão Iniciante</li>
-                </div>
+    <main class="conteudo">
+        <div>
+            <img class="conteudo__foto" src="/img/eu.png" alt="Foto do Diovane sorrindo">
+        </div>        
+        <section class="conteudo__texto">
+            <h1 class="conteudo__title">Diovane Mateus</h1>
+            <p class="conteudo__frase">Sou Engenheiro Civil formado no Brasil em 2020</p>
         </section>
     </main>
+        <section class="formacoes">
+            <h2 class="formacoes__title">Minhas formações principais</h2>
+            <p class="formacoes__frase">Graduado em Engenharia Civil pela <a class="links" href="https://www.usf.edu.br/">Universidade São Franscico</a> em Agosto de 2020. Pós-graduado em Engenharia de Transportes pela <a class="links" href="https://www.uni.sze.hu/">Széchenyi István Egyetem,</a> University of Gyor onde tive o privilégio de estudar com uma bolsa de estudos de 100%. Me graduei em Fevereiro de 2024.</p>
+            <h3 class="about__title">Sobre Mim</h3>
+            <p class="about__frase"> Nasci no Sul de Minas Gerais, morei com meus pais até os 18 anos. Depois me mudei para Bragança Paulista onde eu comecei a estudar Engenharia Civi. Hoje tenho 26 anos, já morei 5 meses no México onde fiz meu primeiro intercâmbio e por um ano e meio na Hungria na cidade de Gyor.</p>
+        </section>
     <footer>
-        <div class="social">
-            <ul class="social-media">
-                <a href="#"><img src="/img/instagram.png" alt="instagram"></a>
-                <a href="#"><img src="/img/facebook.png" alt="facebook"></a>
-                <a href="http://www.linkedin.com/in/diovane-mateus-luz"><img src="" alt="linkedin"></a>
-            </ul>
-            <ul class="contacts">
-                <a href="mailto:diovane.engenharia@gmail.com">E-mail</a>
-                <a href="#">WhatsApp</a>
-            </ul>
-        </div>
-    </footer>    
+        <section class="footer">
+            <nav class="footer__nav">
+                <a class="footer__link links" href="http://www.linkedin.com/in/diovane-mateus-luz"><img class="fotos" src="/img/linkedin_.png" alt="Logo do LinkedIn">LinkedIn</a>
+                <a class="footer__link links" href="https://www.instagram.com/diovanemateus/"><img class="fotos" src="/img/instagram_.png" alt="Logo do Instagram">Instagram</a> 
+                <a class="footer__link links" href="https://www.facebook.com/profile.php?id=100004641960039"><img class="fotos" src="/img/facebook_.png" alt="">Facebook</a>
+                <a class="footer__link links" href="https://github.com/Diomito"><img class="fotos" src="/img/github_.png" alt="Logo do GitHub">GitHub</a>
+            </nav>
+            <div class="nota">
+                <p class="nota__frase"><img class="fotos__copy" src="/img/copyright.png" alt="Logo copyright"> 2022-2023 Desenvolvido por Diovane. All rights reserved.</p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
