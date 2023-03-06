@@ -25,6 +25,7 @@ body{
     background-image: linear-gradient(to bottom, var(--cabecalho), var(--verde-musgo), var(--verde-piscina));
     background-attachment: fixed;
     font-family: var(--montserrat);
+    color: var(--cinza-claro);
 }
 
 .links{
@@ -60,6 +61,10 @@ body{
     scale: 1.2;
 }
 
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+}
 
 @media screen and (min-width: 1024px) {
 
