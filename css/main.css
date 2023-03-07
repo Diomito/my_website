@@ -1,3 +1,4 @@
+/* conteudo section */
 .conteudo{
     display: flex;
     flex-direction: column;
@@ -29,11 +30,34 @@
 }
 
 
+/* formacaoes section */
 .formacoes__title{
     font-size: 2rem;
     font-weight: bold;
 }
 
+
+/* certicate section */
 .certificate{
-    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem 3rem 5rem;
+    gap: 1rem;
+}
+
+.certificate__list{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.certificate__link{
+    align-items: center;
+    color: var(--fonte-link);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem;
+    width: auto;
 }

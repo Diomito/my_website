@@ -53,7 +53,7 @@ body{
 
 .botao:hover{
     background-color: var(--hover);
-    scale: 1.1;
+    color: var(--roxo-claro);
 }
 
 .links:hover{
@@ -64,6 +64,18 @@ body{
 .title{
     font-size: 2rem;
     font-weight: 600;
+}
+
+.card{
+    width: 20px;
+    border: 2px solid var(--verde-piscina);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: var(--cinza-escuro);
+    color: var(--cinza-claro);
 }
 
 @media screen and (min-width: 1024px) {
