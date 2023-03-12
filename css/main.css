@@ -61,3 +61,25 @@
     padding: 0.5rem;
     width: auto;
 }
+
+@media screen and (max-width: 980px) {
+
+    .conteudo{
+        padding: 1rem;
+    }
+
+    .conteudo__container{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .conteudo__texto, .formacoes, .certificate{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .conteudo__foto{
+        width: 200px;
+    }
+
+}

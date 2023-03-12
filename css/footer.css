@@ -43,3 +43,11 @@
 .fotos__copy{
     width: 1rem;    
 }
+
+@media (max-width: 980px) {
+    .footer__nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

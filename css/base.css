@@ -77,16 +77,3 @@ body{
     background-color: var(--cinza-escuro);
     color: var(--cinza-claro);
 }
-
-@media screen and (min-width: 1024px) {
-
-    .cabecalho{
-        justify-content: center;
-        align-items: center;
-    }
-    .cabecalho__nav{
-        display: flex;
-        flex-direction: row;
-    }    
-}
-
