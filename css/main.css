@@ -21,12 +21,12 @@
     display: flex;
     flex-direction: column;
     gap: 1.75rem;
-    color: var(--cinza-claro);
 }
 
 .conteudo__title{
     font-size: 2rem;
     font-weight: 600;
+    color: var(--preto);
 }
 
 
@@ -54,7 +54,7 @@
 
 .certificate__link{
     align-items: center;
-    color: var(--fonte-link);
+    color: var(--cinza-escuro);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
