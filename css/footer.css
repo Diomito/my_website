@@ -1,7 +1,7 @@
 .footer{
     gap: 10%;
     padding: 5%;
-    background-image: linear-gradient(to top, var(--verde-musgo), var(--cabecalho));
+    background-image: linear-gradient(to top, var(--cinza-medio), var(--cinza-escuro));
     padding: 2rem;
     
 }
@@ -26,14 +26,14 @@
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    color: var(--verde-piscina);
     font-size: 0.6em;
 }
 
-.nota__frase{
+
+.nota__frase p{
     display:flex;
     align-items: center;
-    gap: 0.3rem;
+    text-indent: none;
 }
 
 .fotos{
