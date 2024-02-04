@@ -1,90 +1,90 @@
 /* conteudo section */
 .conteudo{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0 2rem 0 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 0 2rem 2rem 2rem;
 }
 
 .conteudo__foto{
-    width: 50%;
-    border-radius: 1rem;
-    flex-grow: 1;
+	width: 50%;
+	border-radius: 1rem;
+	flex-grow: 1;
 }
 
 .conteudo__container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .conteudo__title{
-    font-size: 2rem;
-    font-weight: 600;
+	font-size: 2rem;
+	font-weight: 600;
 }
 
 
 /* formacaoes section */
 .formacoes__title{
-    font-size: 2rem;
-    font-weight: bold;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 
 /* certicate section */
 .certificate{
-    display: flex;
-    flex-direction: column;
-    padding: 0 5rem 3rem 5rem;
-    gap: 1rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0 5rem 3rem 5rem;
+	gap: 1rem;
 }
 
 .certificate__list{
-    display: flex;
-    justify-content:space-around;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    text-align: center;
-    vertical-align: middle;
+	display: flex;
+	justify-content:space-around;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .certificate__link{
-    align-items: center;
-    color: var(--cinza-claro);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0.75rem;
-    width: auto;
+	align-items: center;
+	color: var(--cinza-claro);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0.75rem;
+	width: auto;
 }
 
 @media screen and (max-width: 780px){
 
-    .conteudo{
-        padding: 1rem;
-    }
+	.conteudo{
+		padding: 1rem;
+	}
 
-    .conteudo__container{
-        flex-direction: column;
-        padding: 1rem;
-    }
+	.conteudo__container{
+		flex-direction: column;
+		padding: 1rem;
+	}
 
-    .conteudo__texto, .formacoes, .certificate{
-        text-align: center;
-        padding: 1rem;
-    }
+	.conteudo__texto, .formacoes, .certificate{
+		text-align: center;
+		padding: 1rem;
+	}
 
 }
 
 @media screen and (min-width: 1400px) {
-    
-    .conteudo__foto{
-        width: 1300px;
-        position: inherit;
-    }
-    
-    .conteudo__container{
-        flex-direction: column;
-    }
-    
+	
+	.conteudo__foto{
+		width: 1300px;
+		position: inherit;
+	}
+	
+	.conteudo__container{
+		flex-direction: column;
+	}
+	
 }
