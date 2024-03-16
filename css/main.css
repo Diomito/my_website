@@ -6,14 +6,23 @@
 	padding: 1rem 1rem 2rem 1rem;
 }
 
+.head{
+    flex-direction: row;
+    align-items: center;
+}
+
+
+p{
+	line-height: 2rem;
+}
+
 .frase{
     padding: 0 6rem 0 6rem;
 }
 
 .conteudo__foto{
-	width: 100%;
-	border-radius: 1rem;
-	flex-grow: 1;
+	width: 70%;
+	border-radius: 10px;
 }
 
 .conteudo__container{
@@ -21,19 +30,6 @@
 	align-items: center;
 	justify-content: center;
 }
-
-.conteudo__title{
-	font-size: 2rem;
-	font-weight: 600;
-}
-
-
-/* formacaoes section */
-.formacoes__title{
-	font-size: 2rem;
-	font-weight: bold;
-}
-
 
 /* certicate section */
 .certificate{
@@ -81,10 +77,10 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+/* @media screen and (min-width: 1400px) {
 	
 	.conteudo__foto{
-		width: 1300px;
+		width: 70%;
 		position: inherit;
 	}
 	
@@ -92,4 +88,4 @@
 		flex-direction: column;
 	}
 	
-}
+} */

@@ -17,6 +17,10 @@
 	--vermelho-forte: #B72E2E;
 	--roxo-claro: #B04CD9;
 	--preto: #010101;
+    --1: #12372A;
+    --2: #436850;
+    --3: #50623A;
+    --4: #424874;
 
 	/* font's */
 	--montserrat: 'Montserrat', sans-serif;
@@ -40,39 +44,12 @@ body{
 	scale: 1.2;
 }
 
-.title{
-
-	font-size: 2rem;
-	font-weight: 600;
-	color: var(--cinza-claro);
-	text-align: center;
-    /* text-decoration: underline; */
-	/* lineup class and keyframes */
-	animation: 2s anim-lineUp ease-in-out 1;
-}
-	@keyframes anim-lineUp {
-	0% {
-	  opacity: 0;
-	  transform: translateY(80%);
-	}
-	20% {
-	  opacity: 0;
-	}
-	50% {
-	  opacity: 1;
-	  transform: translateY(0%);
-	}
-	100% {
-	  opacity: 1;
-	  transform: translateY(0%);
-	}
-  }
-
 
 p{
 	color: var(--cinza-claro);
 	text-indent: 2rem;
 	line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .card {

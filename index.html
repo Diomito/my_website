@@ -9,116 +9,105 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="/css/reset.css">
 	<!-- <link rel="stylesheet" href="/css/about.css"> -->
 	<link rel="stylesheet" href="/css/base.css">
 	<link rel="stylesheet" href="/css/cabecalho.css">
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/footer.css">
-	
-                <script> 
-                    //essa função retonna a idade atual//
-                    function calcula_idade_atual(Idade){
+    <link rel="stylesheet" href="/css/background.css">
+    <link rel="stylesheet" href="/css/title.css">
 
-                        var idade = new Date(Idade);
-                        var anoAtual = new Date();
-
-                        idade_atual = anoAtual - idade;
-                        var Idade = Math.floor(idade_atual / (365.25 * 24 * 60 * 60 * 1000));
-                        
-                        return Idade;
-                    }
-                    var Idade = "1996-11-19"
-                    var age = calcula_idade_atual(Idade);
-                    
-                    document.addEventListener("DOMContentLoaded", function() {
-                    document.getElementById("result").innerHTML = age;})
-                </script> 
-
+   
 	<title>Diovane Luz</title>
 
 </head>
 <body>
-	<header class="cabecalho">
-        <main class="conteudo">
-            <section class="conteudo__container">
-                <img class="conteudo__foto" src="/img/Black Technology LinkedIn Banner.png" alt="Banner escrito Diovane Luz com o arroba para o instagram">
-            </section>
-    </header>
-		<section class="formacoes conteudo">
+            <header class="cabecalho">         
+                
+                <main class="conteudo head">
+                    <section class="conteudo__container">
+                        <img class="conteudo__foto" src="/img/eu.png" alt="Banner escrito Diovane Luz com o arroba para o instagram">
+                    </section>
+                    <div>
+                        <h1 class="conteudo__title">Diovane Luz</h1><br>
+                        <h2>Engenheiro Civil</h2>
+                    </div>
 
-			<h2 class="title">Qualificações Técnicas</h2>
-            
-			<p class="frase">Graduado em Engenharia Civil pela <a class="links" href="https://www.usf.edu.br/">Universidade São Franscico</a> em Agosto de 2020. Mestrado em Engenharia de Infrastructuras pela <a class="links" href="https://www.uni.sze.hu/">Széchenyi István Egyetem,</a> Universidade na cidade de Gyor onde tive o privilégio de estudar com uma bolsa de estudos de 100%. Tenho formação de Pericias e Avalição de Imoveis pela faculdade <a class="links" target="_blank" href="https://descomplica.com.br">Descomplica.</a></p>
-        </section>
+            </header>
+                <section class="formacoes conteudo">
         
-        <section class="certificate conteudo">
-            
-            <!-- <h4 class="title">Diploma</h4> -->
-            
-			<div class="certificate__list">
-                <a class= "certificate__link card" target="_blank" href="###">Mestrado em Infraestructuras</a>
-                <a class= "certificate__link card" target="_blank" href="###">Pós graduação Pericias e Avaliação de Imoveis</a>
-                <a class= "certificate__link card" target="_blank" href="/assets/Diploma - USF-girado.pdf">Bacharel Engenharia Civil</a>
-				<a class= "certificate__link card" target="_blank" href="https://sway.cloud.microsoft/Z3ZVmquRe0TbDM5J?ref=Link">Meu Curriculo</a>
-			</div>
-            
-        </section>
+                    <h3 class="title">Qualificações Técnicas</h3>
+                    
+                    <p class="frase">Graduado em Engenharia Civil pela <a class="links" href="https://www.usf.edu.br/" target="_blank">Universidade São Franscico</a> em Agosto de 2020. Mestrado em Engenharia de Infrastructuras pela <a class="links" href="https://www.uni.sze.hu/" target="_blank">Széchenyi István Egyetem,</a> Universidade na cidade de Gyor onde tive o privilégio de estudar com uma bolsa de estudos de 100%. Tenho formação de Pericias e Avalição de Imoveis pela faculdade <a class="links" target="_blank" href="https://descomplica.com.br">Descomplica.</a></p>
+                </section>
+                
+                <section class="certificate conteudo">
+                    
+                    <!-- <h4 class="title">Diploma</h4> -->
+                    
+                    <div class="certificate__list">
+                        <a class= "certificate__link card" target="_blank" href="###">Mestrado em Infraestructuras</a>
+                        <a class= "certificate__link card" target="_blank" href="###">Pós graduação Pericias e Avaliação de Imoveis</a>
+                        <a class= "certificate__link card" target="_blank" href="/assets/Diploma - USF-girado.pdf">Bacharel Engenharia Civil</a>
+                        <a class= "certificate__link card" target="_blank" href="https://sway.cloud.microsoft/Z3ZVmquRe0TbDM5J?ref=Link">Meu Curriculo</a>
+                    </div>
+                    
+                </section>
+        
+        
+                <section class="formacoes conteudo">
+        
+                    <h3 class="title">Sobre Mim</h3>
+        
+                    
+                    <p class="frase"> Nasci e fui criado no sul Minas Gerais. Aos 18 anos me mudei para Bragança Paulista onde eu comecei a estudar na Universidade o curso de Engenharia Civi. Hoje com <i id = "result"></i> anos. Já morei 5 meses no México onde fiz meu primeiro intercâmbio, por um programa de mobilidade academica, onde os alunos selecionados para programa teriam a oportunidade de estudar de um semestre a até 1 ano em outro país. e 2 anos na Hungria na cidade de Gyor.</p>
+        
+                </section>
+        
+                <section class="certificate">
+                    
+                    <h3 class="title">Certificados</h3>
+                    
+                    <div class="certificate__list">
+                        <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/80fd138e-83eb-4478-b814-e33cc617a083">A partir do zero: iniciante em programação</a>
+                        <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/8dc6f4d5-60ac-4e26-b108-057b3381d797?lang=pt_BR"> Aprenda a programar em Python com Orientação a Objetos </a>
+                        <a class="certificate__link card" target="_blank" href="/assets/certificado BIM.pdf">Certificado BIM</a>
+                        <a class="certificate__link card" target="_blank" href="#">Certificado Lingua Espanhola</a>
+                        <a class="certificate__link card" target="_blank" href="/assets/Certificado_Certificate_Diovane_Mateus.pdf">Certificado Fluency Lingua Inglesa</a>
+                        <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/f203a06f-c2e4-4df9-98be-66b2cc52e83e">Excel</a>
+                        <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/d39b6735-e0ff-4ab8-942a-7b5c7dc53ed1">Excel VBA</a>
+                        <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/d80f328a-8853-40f2-958c-8b37696159ca"> Iniciante em Programação</a>
+                        <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/8f4a7035-03b5-475a-ab60-974355490b4e?lang=pt_BR"> Comunicação</a>
+                        <a class="certificate__link card" target="_blank" href="/assets/outros/Diovane Da Luz PM Certificate.pdf">Project Management Virtual Internship</a>
+                        <a class="certificate__link card" target="_blank" href="/assets/USF/DIOVANE MATEUS DA LUZ - PMMU aguas.pdf">Projeto de Extensão Aguas de Lindóia</a>
+                        <a class="certificate__link card" target="_blank" href="/assets/USF/DIOVANE MATEUS DA LUZ - PMMU pedreira.pdf">Projeto de Extensão Pedreira</a>
+                        <a class="certificate__link card" target="_blank" href="/assets/USF/DIOVANE MATEUS DA LUZ - PMMU serra negra.pdf">Projeto de Extensão Serra Negra</a>
+                    </div>
+                    
+                </section>
+            </main>
+            <footer>
+                <section class="footer">
+        
+                    <nav class="footer__nav">
+        
+                        <a class="footer__link links" target="_blank" href="https://www.facebook.com/profile.php?id=100004641960039"><img class="fotos" src="/img/facebook_.png" alt="">Facebook</a>
+                        <a class="footer__link links" target="_blank" href="https://github.com/Diomito"><img class="fotos" src="/img/github_.png" alt="Logo do GitHub">GitHub</a>
+                        <a class="footer__link links" target="_blank" href="https://wa.me/5511934700779?text=***%20Pode%20me%20ajudar%20***"><img class="fotos" src="/img/whatsapp.png" alt="Logo do GitHub">Whatsapp</a>
+                        <a class="footer__link links" target="_blank" href="https://www.instagram.com/diovaneluz/"><img class="fotos" src="/img/instagram_.png" alt="Logo do Instagram">Instagram</a> 
+                        <a class="footer__link links" target="_blank" href="http://www.linkedin.com/in/diovane-luz"><img class="fotos" src="/img/linkedin_.png" alt="Logo do LinkedIn">LinkedIn</a>
+                        <a class="footer__link links" target="_blank" href="https://engenhariadiaria.com/"><img class="fotos" src="/img/blog.png" alt="Logo Engenharia Diária">Engenharia Diária</a>
+                    </nav>
+                    <div class="nota">
+                        <p class="nota__frase"><img class="fotos__copy">&copy; All rights reserved 2023.</p>
+                    </div>
+                </section>
+            </footer>
 
-        <section class="conteudo">
+    <!-- java script's -->
+    <script src="/js/calcula_idade.js"></script>
 
-                <h3 class="title">Pericia e Gestão de obras</h3>
-
-                <p class="frase">Atualmente trabalho com pericias tecnicas, que resumindo é realizar investigações técnicas e imparcial com base em normas e regulamentações com a finalizade de analisar os aspectos de uma edificação e fornecer informações precisa e objetivas ao cliente ou tribunal. Na gestão de obras, gerenciar e coordernar a construção da edificação para que haje o melhor aproveitamento dos materiais, garantir a qualidade e a entrega no prazo.</p>
-
-        </section>
-
-        <section class="formacoes conteudo">
-
-            <h3 class="title">Sobre Mim</h3>
-
-            <p class="frase"> Nascido e fui criado no sul Minas Gerais. Aos 18 anos me mudei para Bragança Paulista onde eu comecei a estudar na Universidade o curso de Engenharia Civi. Hoje com <i id = "result"></i> anos. Já morei 5 meses no México onde fiz meu primeiro intercâmbio, por um programa de mobilidade academica, onde os alunos selecionados para programa teriam a oportunidade de estudar de um semestre a até 1 ano em outro país. e 2 anos na Hungria na cidade de Gyor.</p>
-
-        </section>
-
-		<section class="certificate">
-            
-            <h4 class="title">Certificados</h4>
-            
-            <div class="certificate__list">
-                <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/80fd138e-83eb-4478-b814-e33cc617a083">A partir do zero: iniciante em programação</a>
-                <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/8dc6f4d5-60ac-4e26-b108-057b3381d797?lang=pt_BR"> Aprenda a programar em Python com Orientação a Objetos </a>
-                <a class="certificate__link card" target="_blank" href="/assets/certificado BIM.pdf">Certificado BIM</a>
-                <a class="certificate__link card" target="_blank" href="#">Certificado Lingua Espanhola</a>
-                <a class="certificate__link card" target="_blank" href="/assets/Certificado_Certificate_Diovane_Mateus.pdf">Certificado Fluency Lingua Inglesa</a>
-                <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/f203a06f-c2e4-4df9-98be-66b2cc52e83e">Excel</a>
-                <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/d39b6735-e0ff-4ab8-942a-7b5c7dc53ed1">Excel VBA</a>
-                <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/d80f328a-8853-40f2-958c-8b37696159ca"> Iniciante em Programação</a>
-                <a class="certificate__link card" target="_blank" href="https://cursos.alura.com.br/degree/certificate/8f4a7035-03b5-475a-ab60-974355490b4e?lang=pt_BR"> Comunicação</a>
-                <a class="certificate__link card" target="_blank" href="/assets/outros/Diovane Da Luz PM Certificate.pdf">Project Management Virtual Internship</a>
-                <a class="certificate__link card" target="_blank" href="/assets/USF/DIOVANE MATEUS DA LUZ - PMMU aguas.pdf">Projeto de Extensão Aguas de Lindóia</a>
-                <a class="certificate__link card" target="_blank" href="/assets/USF/DIOVANE MATEUS DA LUZ - PMMU pedreira.pdf">Projeto de Extensão Pedreira</a>
-                <a class="certificate__link card" target="_blank" href="/assets/USF/DIOVANE MATEUS DA LUZ - PMMU serra negra.pdf">Projeto de Extensão Serra Negra</a>
-            </div>
-            
-		</section>
-	</main>
-	<footer>
-		<section class="footer">
-
-            <nav class="footer__nav">
-
-                <a class="footer__link links" target="_blank" href="https://www.facebook.com/profile.php?id=100004641960039"><img class="fotos" src="/img/facebook_.png" alt="">Facebook</a>
-				<a class="footer__link links" target="_blank" href="https://github.com/Diomito"><img class="fotos" src="/img/github_.png" alt="Logo do GitHub">GitHub</a>
-                <a class="footer__link links" target="_blank" href="https://wa.me/5511934700779?text=***%20Pode%20me%20ajudar%20***"><img class="fotos" src="/img/whatsapp.png" alt="Logo do GitHub">Whatsapp</a>
-				<a class="footer__link links" target="_blank" href="https://www.instagram.com/diovaneluz/"><img class="fotos" src="/img/instagram_.png" alt="Logo do Instagram">Instagram</a> 
-				<a class="footer__link links" target="_blank" href="http://www.linkedin.com/in/diovane-luz"><img class="fotos" src="/img/linkedin_.png" alt="Logo do LinkedIn">LinkedIn</a>
-			</nav>
-			<div class="nota">
-				<p class="nota__frase"><img class="fotos__copy" src="/img/copyright.png" alt="Logo copyright">All rights reserved.</p>
-			</div>
-		</section>
-	</footer>
-    
 </body>
 </html>

@@ -1,0 +1,56 @@
+
+h1{
+    color: var(--branco);
+    font-weight: 300;
+	animation: 3s anim-lineUp ease-in-out 1;
+}
+
+h2{
+	color: var(--branco);
+    font-weight: 400;
+    font-style: italic;
+	animation: 3s anim-lineUp ease-in-out 1;
+}
+
+.conteudo__title{
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+
+/* formacaoes section */
+.formacoes__title{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+
+/* tilte decoration */
+
+.title{
+
+	font-size: 2.3rem;
+	font-weight: 600;
+	color: var(--cinza-claro);
+	text-align: center;
+    /* text-decoration: underline; */
+	/* lineup class and keyframes */
+	animation: 3s anim-lineUp ease-in-out 1;
+}
+	@keyframes anim-lineUp {
+	0% {
+	  opacity: 0;
+	  transform: translateY(80%);
+	}
+	20% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+  }

@@ -1,7 +1,7 @@
 .footer{
     gap: 10%;
     padding: 5%;
-    background-image: linear-gradient(to top, var(--cinza-medio), var(--cinza-escuro));
+    /* background-image: linear-gradient(to top, var(--cinza-medio), var(--cinza-escuro)); */
     padding: 2rem;
     
 }
