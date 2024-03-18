@@ -17,9 +17,9 @@
 	--vermelho-forte: #B72E2E;
 	--roxo-claro: #B04CD9;
 	--preto: #010101;
-    --1: #12372A;
-    --2: #436850;
-    --3: #50623A;
+    --1: #3d0979;
+    --2: #12372A;
+    --3: #094d79;
     --4: #424874;
 
 	/* font's */
@@ -34,7 +34,7 @@ body{
 }
 
 .links{
-	text-decoration: none;
+	text-decoration: underline;
     color: var(--azul-ciano);
 }
 

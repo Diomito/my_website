@@ -20,10 +20,6 @@ p{
     padding: 0 6rem 0 6rem;
 }
 
-.conteudo__foto{
-	width: 70%;
-	border-radius: 10px;
-}
 
 .conteudo__container{
 	display: flex;
