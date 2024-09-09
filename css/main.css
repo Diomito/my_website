@@ -40,8 +40,8 @@ p{
 	justify-content:space-around;
 	gap: 0.5rem;
 	flex-wrap: wrap;
-	text-align: center;
 	vertical-align: middle;
+    padding: 0 2rem 0 2rem;
 }
 
 .certificate__link{

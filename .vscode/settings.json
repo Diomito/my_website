@@ -16,4 +16,8 @@
     ],
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.CustomBrowser": "firefox",
+    "cSpell.words": [
+        "Diovane",
+        "Revit"
+    ],
 }
